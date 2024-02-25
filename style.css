@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: akaya;
+    src: url(./font/AkayaKanadaka-Regular.ttf);
+}
+
+:root {
+    --first-color: #260401;
+    --second-color: #A64B29;
+    --third-color: #BF6E3F;
+    --fourt-color: #8BB4D9;
+    --fifth-color: #89ABD9;
+    --first-font: akaya;
+}
+
+* {
+    font-family: var(--first-font);
+}
+
+.navbar-nav {
+    font-size: 1.5rem;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white !important; 
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--third-color) !important;
+}
