@@ -26,7 +26,7 @@
 }
 
 .navbar-nav {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .navbar .container {
@@ -46,22 +46,22 @@
 .carousel-caption {
   bottom: 40%;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .carousel-caption .btn {
   background-color: var(--third-color);
   color: white;
   border: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   /* margin: 0.5rem; */
   white-space: nowrap;
-  padding: 1rem 2rem;
+  padding: .2rem 1rem;
 }
 
 .black {
-  width: 400px;
-  height: 400px;
+  width: 320px;
+  height: 350px;
   background-color: rgba(0, 0, 0, 0.469);
   position: absolute;
   top: 50%;
@@ -80,8 +80,8 @@
 .carousel-indicators button {
   background-color: var(--second-color) !important;
   padding: 0.1rem !important;
-  width: 3rem !important;
-  margin: 0.6rem !important;
+  width: 2rem !important;
+  margin: 0.5rem !important;
 }
 
 .carousel-item {
@@ -93,7 +93,7 @@
   object-fit: cover;
 }
 
-/* -- section -- */
+/* -- about -- */
 
 section#about {
   background-color: var(--first-color);
@@ -101,6 +101,7 @@ section#about {
 
 .imgContainer {
   position: relative;
+  
 }
 
 .imgContainer img {
@@ -124,7 +125,7 @@ section#about {
   background-color: var(--second-color);
   color: white;
   border: none;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   white-space: nowrap;
   padding: 1rem 1rem;
   border: none;
@@ -135,7 +136,7 @@ section#about {
   border: none;
 }
 
-/* -- section -- */
+/* -- meet people -- */
 
 section#people {
   background-color: var(--third-color);
@@ -172,4 +173,25 @@ section#people i {
 
 section#people i:hover {
   opacity: 0.5;
+}
+
+/* -- meet people -- */
+
+section#menu {
+  background-color: var(--first-color);
+  color: white;
+}
+
+section#menu button {
+  background-color: var(--second-color);
+  color: white;
+  margin-right: 1rem;
+}
+
+section#menu button:hover {
+  background-color: #bf6e3f;
+}
+
+section#menu .container {
+  background-color: var(--third-color) !important;
 }
