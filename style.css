@@ -175,7 +175,7 @@ section#people i:hover {
   opacity: 0.5;
 }
 
-/* -- meet people -- */
+/* -- our menu -- */
 
 section#menu {
   background-color: var(--first-color);
@@ -194,4 +194,21 @@ section#menu button:hover {
 
 section#menu .container {
   background-color: var(--third-color) !important;
+}
+
+/* -- contact -- */
+
+section#contact {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.429),
+    rgba(206, 100, 14, 0.654)
+  ), url(./images/slider2.jpg);
+}
+
+section#contact input, section#contact textarea {
+  background-color: rgba(245, 245, 245, 0.68);
+}
+section#contact input:focus, section#contact textarea:focus {
+  /* background-color: inherit; */
 }
