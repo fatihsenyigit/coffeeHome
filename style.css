@@ -202,8 +202,12 @@ section#contact {
   background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.429),
-    rgba(206, 100, 14, 0.654)
+    #bf6e3f
   ), url(./images/slider2.jpg);
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
 }
 
 section#contact input, section#contact textarea {
@@ -211,4 +215,10 @@ section#contact input, section#contact textarea {
 }
 section#contact input:focus, section#contact textarea:focus {
   /* background-color: inherit; */
+}
+
+/* -- footer -- */
+
+footer {
+  background-color:  var(--third-color);
 }
